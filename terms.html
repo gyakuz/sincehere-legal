@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>服务条款 / Terms of Service - SinceHere</title>
+  <style>
+    :root {
+      --bg: #FDFCF8;
+      --text: #1a1a1a;
+      --muted: #666;
+      --border: #e5e5e5;
+      --accent: #FF4D6D;
+      --card-bg: #fff;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.8;
+      -webkit-font-smoothing: antialiased;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+    .lang-switch {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 32px;
+    }
+    .lang-switch button {
+      padding: 6px 16px;
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      background: var(--card-bg);
+      color: var(--muted);
+      font-size: 13px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .lang-switch button.active {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
+    .logo {
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+    .subtitle {
+      color: var(--muted);
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    .effective-date {
+      font-size: 13px;
+      color: var(--muted);
+      margin-bottom: 40px;
+    }
+    h2 {
+      font-size: 18px;
+      font-weight: 600;
+      margin: 32px 0 12px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 15px;
+      font-weight: 600;
+      margin: 20px 0 8px;
+    }
+    p, li {
+      font-size: 14px;
+      color: #333;
+      margin-bottom: 8px;
+    }
+    ul {
+      padding-left: 20px;
+      margin-bottom: 12px;
+    }
+    li { margin-bottom: 4px; }
+    strong { color: var(--text); }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    .section { display: none; }
+    .section.active { display: block; }
+    .highlight-box {
+      background: #FFF5F5;
+      border-left: 3px solid var(--accent);
+      padding: 12px 16px;
+      border-radius: 0 8px 8px 0;
+      margin: 16px 0;
+    }
+    .highlight-box p {
+      margin-bottom: 4px;
+    }
+    @media (max-width: 480px) {
+      .container { padding: 24px 16px 60px; }
+      .logo { font-size: 24px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="lang-switch">
+      <button id="btn-zh" class="active" onclick="switchLang('zh')">中文</button>
+      <button id="btn-en" onclick="switchLang('en')">English</button>
+    </div>
+
+    <!-- 中文版 -->
+    <div id="zh" class="section active">
+      <div class="logo">服务条款</div>
+      <div class="subtitle">SinceHere — 你的智能旅行同伴</div>
+      <div class="effective-date">生效日期：2026 年 3 月 6 日</div>
+
+      <p>欢迎使用 SinceHere（以下简称"本应用"）。使用本应用即表示您同意以下服务条款。请在使用前仔细阅读。</p>
+
+      <h2>一、服务概述</h2>
+      <p>SinceHere 是一款智能旅行同伴应用，提供以下核心功能：</p>
+      <ul>
+        <li>旅行计划创建与管理</li>
+        <li>行程规划与地图导航</li>
+        <li>智能打包清单</li>
+        <li>消费记录与多人分账</li>
+        <li>证件文档管理与 OCR 识别</li>
+        <li>AI 智能行程生成</li>
+        <li>语音 AI 记账</li>
+        <li>数据备份与恢复</li>
+      </ul>
+
+      <h2>二、账户与使用</h2>
+
+      <h3>2.1 账户</h3>
+      <p>本应用支持"Sign in with Apple"登录。登录是可选的，但某些功能可能需要登录才能使用。您有责任保护您 Apple ID 的安全。</p>
+
+      <h3>2.2 使用规范</h3>
+      <p>在使用本应用时，您同意：</p>
+      <ul>
+        <li>遵守所有适用的法律法规</li>
+        <li>不将本应用用于任何非法或未经授权的目的</li>
+        <li>不尝试干扰或破坏本应用的正常运行</li>
+        <li>对您存储在本应用中的内容负责</li>
+      </ul>
+
+      <h2>三、订阅与付费</h2>
+
+      <div class="highlight-box">
+        <p><strong>⚠️ 重要：请在订阅前仔细阅读以下条款</strong></p>
+      </div>
+
+      <h3>3.1 订阅计划</h3>
+      <p>本应用提供以下订阅选项：</p>
+      <ul>
+        <li><strong>月度会员</strong>：¥6 / $0.99 每月</li>
+        <li><strong>年度会员</strong>：¥49 / $7.99 每年</li>
+      </ul>
+      <p>免费版用户可以使用基础功能，Pro 会员可解锁全部高级功能。</p>
+
+      <h3>3.2 自动续订</h3>
+      <ul>
+        <li>订阅将<strong>自动续期</strong>，除非您在当前订阅期结束前至少 24 小时取消</li>
+        <li>续订费用将在当前订阅期结束前 24 小时内从您的 Apple ID 账户中扣除</li>
+        <li>首次订阅确认购买时即扣费</li>
+      </ul>
+
+      <h3>3.3 取消订阅</h3>
+      <p>您可以随时取消订阅：</p>
+      <ul>
+        <li>打开 iPhone 的<strong>设置</strong> → 点击您的<strong>Apple ID</strong> → <strong>订阅</strong> → 找到 SinceHere → 取消订阅</li>
+        <li>取消后，您仍可在当前已付费周期结束前继续使用 Pro 功能</li>
+        <li>取消不会退还当前周期的已付费用</li>
+      </ul>
+
+      <h3>3.4 退款</h3>
+      <p>所有购买和退款均通过 Apple 处理。如需申请退款，请访问 <a href="https://reportaproblem.apple.com" target="_blank">reportaproblem.apple.com</a> 或联系 Apple 客服。</p>
+
+      <h3>3.5 价格变更</h3>
+      <p>我们保留调整订阅价格的权利。价格变更将提前通知，且不影响当前订阅周期。</p>
+
+      <h2>四、AI 功能</h2>
+
+      <h3>4.1 API Key 责任</h3>
+      <p>使用 AI 功能需要您提供自己的智谱 AI API Key。您需要：</p>
+      <ul>
+        <li>自行注册智谱 AI 账号并获取 API Key</li>
+        <li>自行承担使用智谱 AI 服务产生的费用</li>
+        <li>妥善保管您的 API Key，不与他人共享</li>
+      </ul>
+
+      <h3>4.2 AI 生成内容</h3>
+      <p>AI 生成的行程规划、消费解析等内容仅供参考，可能包含不准确的信息。请在实际使用前进行核实。</p>
+
+      <h2>五、数据与知识产权</h2>
+
+      <h3>5.1 您的数据</h3>
+      <p>您通过本应用创建的数据（旅行计划、消费记录等）归您所有。我们不主张对您的用户数据享有任何权利。</p>
+
+      <h3>5.2 应用知识产权</h3>
+      <p>本应用的设计、代码、图标、界面及相关内容受知识产权法保护。未经授权，不得复制、修改、分发或创建衍生作品。</p>
+
+      <h2>六、免责声明</h2>
+      <ul>
+        <li>本应用按"现状"提供，不提供任何明示或暗示的保证</li>
+        <li>旅行信息、汇率数据、天气信息等仅供参考，不构成专业建议</li>
+        <li>我们不对因使用本应用而产生的任何直接或间接损失承担责任</li>
+        <li>我们不保证服务的不间断或无错误运行</li>
+        <li>因第三方服务（智谱 AI、MapTiler 等）导致的功能异常不在我们的责任范围内</li>
+      </ul>
+
+      <h2>七、条款变更</h2>
+      <p>我们保留随时修改本服务条款的权利。重大变更将通过应用内通知或本页面发布。继续使用本应用即表示您接受修改后的条款。</p>
+
+      <h2>八、适用法律</h2>
+      <p>本服务条款受中华人民共和国法律管辖。如发生争议，双方应友好协商解决；协商不成的，提交有管辖权的人民法院裁决。</p>
+
+      <h2>九、联系我们</h2>
+      <p>如果您对本服务条款有任何疑问，请通过以下方式联系我们：</p>
+      <p>📧 邮箱：<a href="mailto:sincehere.app@gmail.com">sincehere.app@gmail.com</a></p>
+
+      <div class="footer">
+        © 2026 SinceHere. All rights reserved.
+      </div>
+    </div>
+
+    <!-- English Version -->
+    <div id="en" class="section">
+      <div class="logo">Terms of Service</div>
+      <div class="subtitle">SinceHere — Your Smart Travel Companion</div>
+      <div class="effective-date">Effective Date: March 6, 2026</div>
+
+      <p>Welcome to SinceHere (hereinafter "the App"). By using this App, you agree to the following Terms of Service. Please read them carefully before using the App.</p>
+
+      <h2>1. Service Overview</h2>
+      <p>SinceHere is a smart travel companion app that provides the following core features:</p>
+      <ul>
+        <li>Travel plan creation and management</li>
+        <li>Itinerary planning and map navigation</li>
+        <li>Smart packing lists</li>
+        <li>Expense tracking and group split settlement</li>
+        <li>Document management and OCR recognition</li>
+        <li>AI-powered trip generation</li>
+        <li>Voice AI expense recording</li>
+        <li>Data backup and restore</li>
+      </ul>
+
+      <h2>2. Account and Usage</h2>
+
+      <h3>2.1 Account</h3>
+      <p>This App supports "Sign in with Apple." Sign-in is optional, but some features may require authentication. You are responsible for the security of your Apple ID.</p>
+
+      <h3>2.2 Acceptable Use</h3>
+      <p>By using this App, you agree to:</p>
+      <ul>
+        <li>Comply with all applicable laws and regulations</li>
+        <li>Not use the App for any illegal or unauthorized purpose</li>
+        <li>Not attempt to interfere with or disrupt the normal operation of the App</li>
+        <li>Be responsible for the content you store in the App</li>
+      </ul>
+
+      <h2>3. Subscriptions and Payments</h2>
+
+      <div class="highlight-box">
+        <p><strong>⚠️ Important: Please read the following terms carefully before subscribing</strong></p>
+      </div>
+
+      <h3>3.1 Subscription Plans</h3>
+      <p>This App offers the following subscription options:</p>
+      <ul>
+        <li><strong>Monthly Plan</strong>: ¥6 / $0.99 per month</li>
+        <li><strong>Annual Plan</strong>: ¥49 / $7.99 per year</li>
+      </ul>
+      <p>Free users can access basic features. Pro members unlock all premium features.</p>
+
+      <h3>3.2 Auto-Renewal</h3>
+      <ul>
+        <li>Subscriptions <strong>automatically renew</strong> unless you cancel at least 24 hours before the end of the current period</li>
+        <li>Renewal charges are deducted from your Apple ID account within 24 hours before the current period ends</li>
+        <li>First subscription is charged upon purchase confirmation</li>
+      </ul>
+
+      <h3>3.3 Cancellation</h3>
+      <p>You can cancel your subscription at any time:</p>
+      <ul>
+        <li>Open iPhone <strong>Settings</strong> → tap your <strong>Apple ID</strong> → <strong>Subscriptions</strong> → find SinceHere → Cancel Subscription</li>
+        <li>After cancellation, you can continue to use Pro features until the end of the current paid period</li>
+        <li>Cancellation does not result in a refund for the current period</li>
+      </ul>
+
+      <h3>3.4 Refunds</h3>
+      <p>All purchases and refunds are processed through Apple. To request a refund, please visit <a href="https://reportaproblem.apple.com" target="_blank">reportaproblem.apple.com</a> or contact Apple Support.</p>
+
+      <h3>3.5 Price Changes</h3>
+      <p>We reserve the right to adjust subscription prices. Price changes will be notified in advance and will not affect the current subscription period.</p>
+
+      <h2>4. AI Features</h2>
+
+      <h3>4.1 API Key Responsibility</h3>
+      <p>Using AI features requires you to provide your own Zhipu AI API Key. You are responsible for:</p>
+      <ul>
+        <li>Registering a Zhipu AI account and obtaining an API Key</li>
+        <li>Any costs incurred from using Zhipu AI services</li>
+        <li>Keeping your API Key secure and not sharing it with others</li>
+      </ul>
+
+      <h3>4.2 AI-Generated Content</h3>
+      <p>AI-generated content such as trip plans and expense parsing is provided for reference only and may contain inaccuracies. Please verify before actual use.</p>
+
+      <h2>5. Data and Intellectual Property</h2>
+
+      <h3>5.1 Your Data</h3>
+      <p>Data created through this App (travel plans, expense records, etc.) belongs to you. We do not claim any rights over your user data.</p>
+
+      <h3>5.2 App Intellectual Property</h3>
+      <p>The design, code, icons, interface, and related content of this App are protected by intellectual property laws. Unauthorized copying, modification, distribution, or creation of derivative works is prohibited.</p>
+
+      <h2>6. Disclaimer</h2>
+      <ul>
+        <li>This App is provided "as is" without any express or implied warranties</li>
+        <li>Travel information, exchange rates, weather data, etc. are for reference only and do not constitute professional advice</li>
+        <li>We are not liable for any direct or indirect damages arising from the use of this App</li>
+        <li>We do not guarantee uninterrupted or error-free operation of the service</li>
+        <li>Malfunctions caused by third-party services (Zhipu AI, MapTiler, etc.) are beyond our responsibility</li>
+      </ul>
+
+      <h2>7. Changes to Terms</h2>
+      <p>We reserve the right to modify these Terms of Service at any time. Significant changes will be communicated through in-app notifications or this page. Continued use of the App constitutes acceptance of the modified terms.</p>
+
+      <h2>8. Governing Law</h2>
+      <p>These Terms of Service are governed by the laws of the People's Republic of China. In the event of a dispute, both parties shall attempt to resolve it through friendly negotiation; failing that, the dispute shall be submitted to a court of competent jurisdiction.</p>
+
+      <h2>9. Contact Us</h2>
+      <p>If you have any questions regarding these Terms of Service, please contact us at:</p>
+      <p>📧 Email: <a href="mailto:sincehere.app@gmail.com">sincehere.app@gmail.com</a></p>
+
+      <div class="footer">
+        © 2026 SinceHere. All rights reserved.
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function switchLang(lang) {
+      document.getElementById('zh').classList.toggle('active', lang === 'zh');
+      document.getElementById('en').classList.toggle('active', lang === 'en');
+      document.getElementById('btn-zh').classList.toggle('active', lang === 'zh');
+      document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+      document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
+    }
+    if (navigator.language && !navigator.language.startsWith('zh')) {
+      switchLang('en');
+    }
+  </script>
+</body>
+</html>

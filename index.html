@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SinceHere - Legal</title>
+  <style>
+    :root {
+      --bg: #FDFCF8;
+      --text: #1a1a1a;
+      --muted: #666;
+      --border: #e5e5e5;
+      --accent: #FF4D6D;
+      --accent-light: #FFF0F3;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      -webkit-font-smoothing: antialiased;
+    }
+    .card {
+      text-align: center;
+      padding: 48px 32px;
+      max-width: 400px;
+    }
+    .app-icon {
+      width: 80px;
+      height: 80px;
+      border-radius: 20px;
+      background: linear-gradient(135deg, #FF4D6D, #FF8C42);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 20px;
+      font-size: 36px;
+      box-shadow: 0 8px 32px rgba(255, 77, 109, 0.25);
+    }
+    h1 {
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+    .tagline {
+      color: var(--muted);
+      font-size: 14px;
+      margin-bottom: 36px;
+    }
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .links a {
+      display: block;
+      padding: 14px 24px;
+      border-radius: 14px;
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 500;
+      transition: all 0.2s;
+    }
+    .links a.primary {
+      background: var(--accent);
+      color: #fff;
+      box-shadow: 0 4px 16px rgba(255, 77, 109, 0.2);
+    }
+    .links a.primary:hover {
+      box-shadow: 0 6px 24px rgba(255, 77, 109, 0.3);
+      transform: translateY(-1px);
+    }
+    .links a.secondary {
+      background: var(--accent-light);
+      color: var(--accent);
+      border: 1px solid rgba(255, 77, 109, 0.15);
+    }
+    .links a.secondary:hover {
+      background: #FFE5EB;
+      transform: translateY(-1px);
+    }
+    .footer {
+      margin-top: 40px;
+      font-size: 12px;
+      color: var(--muted);
+    }
+    .footer a {
+      color: var(--muted);
+      text-decoration: none;
+    }
+    .footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="app-icon">✈️</div>
+    <h1>SinceHere</h1>
+    <p class="tagline">Your Smart Travel Companion</p>
+    <div class="links">
+      <a href="/privacy" class="primary">隐私政策 / Privacy Policy</a>
+      <a href="/terms" class="secondary">服务条款 / Terms of Service</a>
+    </div>
+    <div class="footer">
+      <p>© 2026 SinceHere. All rights reserved.</p>
+      <p style="margin-top: 4px;">📧 <a href="mailto:sincehere.app@gmail.com">sincehere.app@gmail.com</a></p>
+    </div>
+  </div>
+</body>
+</html>
